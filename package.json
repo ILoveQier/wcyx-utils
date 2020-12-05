@@ -1,0 +1,24 @@
+{
+  "name": "wcyx-utils",
+  "version": "1.0.2",
+  "description": "gongju",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeAndDove/wcyx-utils.git"
+  },
+  "author": "wangchaoaiyuxia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeAndDove/wcyx-utils/issues"
+  },
+  "homepage": "https://github.com/MikeAndDove/wcyx-utils#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

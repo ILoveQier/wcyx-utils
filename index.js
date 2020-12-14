@@ -71,3 +71,11 @@ export function timeFormat(t, fmt) {
       );
   return fmt;
 }
+
+export default {
+  timeFormat,
+  randomBetween,
+  deepClone,
+  formData,
+  setRem
+}

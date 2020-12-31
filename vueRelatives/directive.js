@@ -12,7 +12,6 @@ export let wcyxDrag = {
         // const dragDom = el.querySelector('.body-hello');
         const dragDom = el
         dialogHeaderEl.style.cursor = 'move';
-        console.log(dialogHeaderEl.style);
         // 获取原有属性 ie dom元素.currentStyle 火狐谷歌 window.getComputedStyle(dom元素, null);
         const sty = dragDom.currentStyle || window.getComputedStyle(dragDom, null);
 

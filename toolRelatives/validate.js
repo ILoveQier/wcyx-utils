@@ -152,7 +152,7 @@ export function validateMobile(phone) {
 /**
  * 判断是否为空
  */
-export function validatenull(val) {
+export function validateNull(val) {
     if (typeof val == 'boolean') {
         return false;
     }

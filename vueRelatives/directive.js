@@ -1,4 +1,4 @@
-import { validatenull } from "../toolRelatives/validate";
+import { validateNull } from "../toolRelatives/validate";
 
 export let wcyxDrag = {
     // v-dialog-drag: 弹窗拖拽
@@ -22,13 +22,13 @@ export let wcyxDrag = {
         }
         setTimeout(() => {
             // 异步设置默认
-            if (validatenull(sty.position)) {
+            if (validateNull(sty.position)) {
                 dragDom.style.position = 'fixed';
             }
-            if (validatenull(sty.top)) {
+            if (validateNull(sty.top)) {
                 dragDom.style.top = `${dragDom.style.marginTop}`;
             }
-            if (validatenull(sty.left)) {
+            if (validateNull(sty.left)) {
                 dragDom.style.left = `${(document.body.clientWidth - width) / 2}px`;
             }
         }, 0);

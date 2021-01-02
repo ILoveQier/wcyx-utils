@@ -1,7 +1,7 @@
 {
   "name": "wcyx-utils",
-  "version": "1.10.0",
-  "description": "工具类",
+  "version": "1.10.1",
+  "description": "王超和郁霞的工具类，所以叫wcyx-utils，逐渐完善它",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
